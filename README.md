@@ -1,1 +1,3 @@
-We are doing stuff
+## HowTo
+
+ruby get.rb
