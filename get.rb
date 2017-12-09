@@ -45,4 +45,6 @@ data_brian = grab_data('data_brian')
 puts JSON.pretty_generate(@output)
 
 File.open("out.json", 'w') { |file| file.write(JSON.pretty_generate(@output)) }
+File.open("continuous_out.json", 'a') { |file| file.write(JSON.pretty_generate(@output)) }
+
 
